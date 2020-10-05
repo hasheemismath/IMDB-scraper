@@ -66,6 +66,7 @@ const URL = [
 
       let file = fs.createWriteStream(`${movie.id}.jpg`)
 
+      //For stream
       await new Promise((resolve,reject)=>{
          let straem = request({
             url:image,
