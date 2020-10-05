@@ -1,7 +1,6 @@
 const requestPromise = require('request-promise')
 const cheerio = require('cheerio')
 const fs = require('fs');
-const json2csvParser = require('json2csv').Parser;
 const request = require('request')
 
 const URL = [
